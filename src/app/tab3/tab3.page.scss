@@ -1,3 +1,29 @@
-ion-content ion-toolbar {
+ion-content {
   --background: translucent;
 }
+ion-content {
+  --background: rgb(230, 223, 216);
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+
+.semi-circle {
+  position: absolute; /* Define a posição do elemento como absoluta em relação ao elemento pai */
+  bottom: 250px; /* Define a posição vertical do elemento em relação ao elemento pai */
+  left: 50%; /* Define a posição horizontal do elemento em relação ao elemento pai */
+  transform: translateX(-50%); /* Centraliza o elemento horizontalmente no centro do elemento pai */
+  width: 500px; /* Define a largura do elemento */
+  height: 100px; /* Define a altura do elemento */
+  border-radius: 100px 100px 0 0; /* Define o raio dos cantos do elemento para criar a forma de um semicírculo */
+  background-color: rgb(230, 223, 216); /* Define a cor de fundo do elemento com uma opacidade de 80% */
+  z-index: 0; /* Define a ordem de empilhamento do elemento em relação aos outros elementos na página */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0); /* Adiciona uma sombra ao elemento para torná-lo mais visível */
+}
+

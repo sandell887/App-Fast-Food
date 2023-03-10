@@ -1,17 +1,57 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 3
+    <ion-title color="warning">
+      Teste 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Pag 3</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+
+    <div class="banner-overlay">
+      <div class="semi-circle"></div>
+    <img src="/assets/imgloja/banner2.jpg" alt="Produto 2">
+  </div>
+
+
+    <div class="button-container">
+      <ion-button class="cupom-button" style="--background: rgb(255, 255, 255); font-size: 1.5rem;">
+        <ion-label>
+          <div> <ion-icon name="receipt" size="large" style="color: rgb(255, 0, 0);" > </ion-icon> </div>
+          <div style="color: rgb(255, 0, 0);"><h1>Cardapio</h1></div>
+        </ion-label>
+      </ion-button>
+    
+      <ion-button style="--background: rgb(255, 255, 255); font-size: 1.5rem;">
+        <ion-label>
+          <ion-icon name="beer" size="large"style="color: rgb(255, 0, 0);" > </ion-icon>
+          <div style="color: rgb(255, 0, 0);"><h1>Bebidas</h1></div>
+        </ion-label>
+      </ion-button>
+    
+      <ion-button style="--background: rgb(255, 255, 255); font-size: 1.5rem;">
+        <ion-label>
+          <ion-icon name="bicycle" size="large" style="color: rgb(255, 0, 0);" > </ion-icon>
+          <div style="color: rgb(255, 0, 0);"><h1>Delivery</h1></div>
+        </ion-label>
+      </ion-button>
+    </div>
+   
+    <ion-card color="dark">
+      <img alt="Silhouette of mountains" src="/assets/imgloja/hamburg.png" />
+      <ion-card-header>
+        <ion-card-title>Nome do Produto</ion-card-title>
+        <ion-card-subtitle>Valor: 00R$</ion-card-subtitle>
+      </ion-card-header>
+     
+      <ion-card-content>
+        Descrição do prodoto: acompanhamentos o que vai incluso junto entrega bla bla bla.
+      </ion-card-content>
+    </ion-card>
 </ion-content>
